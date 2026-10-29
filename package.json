@@ -1,0 +1,13 @@
+
+{
+  "name": "forgebox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local backend resilience laboratory for Windows",
+  "scripts": {
+    "dev": "pnpm --filter @forgebox/web dev",
+    "build": "pnpm -r --if-present build",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "test": "pnpm -r --if-present test"
+  }
+}

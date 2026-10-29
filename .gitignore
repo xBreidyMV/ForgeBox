@@ -1,0 +1,14 @@
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Dependencias y compilación
+node_modules/
+dist/
+coverage/
